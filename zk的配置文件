@@ -1,0 +1,2 @@
+配置文件目录：conf/zoo.cfg
+cd /data/zookeeper-3.4.14/bin && python get_zk_all_status.py
