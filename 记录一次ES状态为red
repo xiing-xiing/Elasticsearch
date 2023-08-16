@@ -1,0 +1,8 @@
+修改ES的jvm参数
+vim /es/config/jvm.options 
+
+修改cgroup限制
+/sys/fs/cgroup/memory/xx  && echo xx >  memory.limit_in_bytes
+
+查看修复状态
+curl -Ss -XPOST 127.0.0.1:9203/_cluster/reroute?retry_failed=true\&pretty
