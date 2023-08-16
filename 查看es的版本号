@@ -1,0 +1,4 @@
+curl -X GET "http://localhost:9200"
+在返回的信息中有lucene_version信息，这其中包含的就是版本信息
+
+  
