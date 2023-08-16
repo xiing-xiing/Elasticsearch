@@ -1,0 +1,7 @@
+查看所有的索引：curl -X   GET -u {账户}:{密码} "http://{esd的ip}:9200/_cat/indices?v"
+
+增加数据：curl -X POST -u (账户:密码) "http://(ip):9200/(索引名)/_doc?pretty" -H 'Content-Type: application/json' -d '{"name": "Jo","age": 2,"address": "123 Main St"}'
+查看数据：curl -X GET -u (账户:密码) "http://(ip):9200/(索引名)/_search?pretty"
+修改数据：curl -X POST -u (账户:密码) "http://(ip):9200/(索引名)/_update/(id名)?pretty" -H 'Content-Type: application/json' -d '{"doc": {"name": "John Smith","age": 30,"address": "123 Main St."}}'
+删除数据：curl -X DELETE -u (账户:密码) "http://(ip):9200/(索引名)/_doc/(id名)?pretty"
+删除索引：curl -X DELETE -u (账户:密码) "http://(ip):9200:9200/(索引名)?pretty"
