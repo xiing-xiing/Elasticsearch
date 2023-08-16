@@ -1,3 +1,6 @@
+查看ES的状态：
+curl 127.0.0.1:9200/_cluster/health?pretty
+
 修改ES的jvm参数
 vim /es/config/jvm.options 
 
