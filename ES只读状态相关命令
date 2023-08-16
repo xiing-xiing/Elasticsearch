@@ -1,0 +1,8 @@
+查看es集群的配置
+curl -X GET -u {账号}:{密码} "http://{ip地址}:9200/_cluster/settings?pretty"
+
+#设置集群可写
+curl-XPUT -H  "Content-Type: application/json"  http://127.0.0.1:9200/_cluster /settings -d {"persistent":{"cluster.blocks.read_only_allow_delete":null}}
+
+设置素引可写
+curl -XPUT -H "Content-Type: application/json" http://127.0.0.1:9200/_all/_settings -d '{"index.blocks.read_only_allow_delete":null}'
