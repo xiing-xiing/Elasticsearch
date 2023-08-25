@@ -1,0 +1,17 @@
+配置文件目录：conf/zoo.cfg
+
+README.txt：包含ZooKeeper的使用和配置说明。
+zkCleanup.sh：用于清理ZooKeeper数据目录中的无效数据。
+zkCli.cmd：Windows系统下的ZooKeeper客户端命令脚本。
+zkCli.sh：Linux系统下的ZooKeeper客户端命令脚本。
+zkEnv.cmd：Windows系统下的ZooKeeper环境变量配置脚本。
+zkEnv.sh：Linux系统下的ZooKeeper环境变量配置脚本。
+zkServer.cmd：Windows系统下的ZooKeeper服务器启动脚本。
+zkServer-initialize.sh：用于初始化ZooKeeper服务器的脚本。
+zkServer.sh：Linux系统下的ZooKeeper服务器启动脚本。
+zkSnapshotComparer.cmd：Windows系统下的ZooKeeper快照比较脚本。
+zkSnapshotComparer.sh：Linux系统下的ZooKeeper快照比较脚本。
+zkSnapShotToolkit.cmd：Windows系统下的ZooKeeper快照工具脚本。
+zkSnapShotToolkit.sh：Linux系统下的ZooKeeper快照工具脚本。
+zkTxnLogToolkit.cmd：Windows系统下的ZooKeeper事务日志工具脚本。
+zkTxnLogToolkit.sh：Linux系统下的ZooKeeper事务日志工具脚本。
