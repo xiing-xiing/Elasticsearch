@@ -1,0 +1,18 @@
+通过zk的客户端登陆zk：
+sh zkCli.sh
+
+查看节点：
+ls /
+get /test
+
+创建节点：
+create /test 11
+
+修改节点：
+set /test 12
+
+创建临时节点：
+create -e /test2 22
+
+删除节点：
+delete /test
